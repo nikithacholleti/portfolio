@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block title %}{% endblock title %}
+
+{% block body %}
+
+
+
+<div class="container my-4 ">
+    <h2 style="color:brown;">Explore my creativity and expertise, welcome!</h2>
+</div>
+
+<div class="container my-4 ">
+
+    {% load static %}
+
+   <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81qdQxufBJIgiHX-a8XiOqR9NVDQq_NHujhJMcYnENk0Gi64s8Nr7n8dp4QMOWoQw2o2DVXFqJcdl0hdnWgQB6nt00Gp=s2560"  width="200" height="200" >
+</div>
+
+<div class="container my-4 ">
+    <p style="font-size:20px;">
+        My name is Nikitha Cholleti and I am currently an undergraduate student majoring in Computer Science and Engineering. However, I do not limit myself to theoretical learning. I strive for personal growth, such as improving my communication skills and developing hobbies, while also gaining practical knowledge as an Engineer.
+        An accomplished and dedicated individual with a strong educational background and a passion for continuous learning. Demonstrates exceptional skills in problem-solving, critical thinking, and effective communication. Experienced in various fields with a proven track record. Possesses a strong work ethic, adaptability, and a drive for excellence.
+    </p>
+
+    
+
+
+    <a href="https://drive.google.com/file/d/1h-6tKTdkmodboja4aeHuiT0VeFbXJO8i/view?usp=drive_link" target="_blank">
+        <button> Download Resume</button>
+    </a>
+
+    {% for post in file %}
+
+    {% endfor %}
+
+
+
+
+</div>
+
+
+
+
+
+{% endblock body %}
+
+
+
